@@ -111,10 +111,10 @@ atom-notifications {
 
 kbd {
   .text(normal);
-  color: @tooltip-key-text-color;
+  color: @theme-chocolate;
   background: @tooltip-key-background-color;
   font-size: 90%;
-  border: 1px solid @tooltip-key-text-color;
+  border: 1px solid @theme-chocolate;
   border-radius: @component-border-radius/2;
   margin-left: @component-padding/2;
 }
@@ -177,6 +177,8 @@ atom-text-editor[mini]::shadow {
   height: @input-height;
   max-height: @input-height;
   line-height: @input-height - 2px;
+  //margin: -10px -20px 0px -20px;
+  // padding: 0px 20px 0px 20px;
 
   &:hover {
     border: 1px solid @input-border-color !important;
