@@ -27,4 +27,4 @@ All feedback is welcome.
 
 Here's an initial screen showing Sophisticated UI with the syntax theme One Dark. More screens to come.
 
-(http://i.imgur.com/Fs4YMJf.png)
+![Sophisticated UI](http://i.imgur.com/Fs4YMJf.png)
