@@ -22,3 +22,9 @@ As time permits, I am working to remove requirement.
 #### ETC
 
 All feedback is welcome.
+
+#### Screens
+
+Here's an initial screen showing Sophisticated UI with the syntax theme One Dark. More screens to come.
+
+(http://i.imgur.com/Fs4YMJf.png)
