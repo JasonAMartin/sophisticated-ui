@@ -1,8 +1,7 @@
-@import "syntax-variables";
-
 // UI Theme colors -------------------------------------------------------------
 
 @theme-purple: rgb(167, 105, 188);
+@theme-darkpurple: rgb(31, 9, 44);
 @theme-concrete: rgb(189, 189, 189);
 @theme-chocolate: rgb(210, 105, 30);
 @theme-white: rgb(255, 255, 255);
@@ -13,25 +12,25 @@
 // end new
 
 @theme-text-color-highlight: @theme-white;
-@theme-text-color-accent:    mix(@syntax-text-color, @theme-text-color-highlight, 50%);
-@theme-text-color-normal:    @theme-dusk;
-@theme-text-color-subtle:    @theme-cement;
+@theme-text-color-accent: mix(@theme-purple, @theme-text-color-highlight, 50%);
+@theme-text-color-normal: @theme-dusk;
+@theme-text-color-subtle: @theme-cement;
 
-@theme-background-color:       @syntax-background-color;
-@theme-background-color-dark:  @theme-eggplant;
-@theme-background-color-light: desaturate(lighten(@syntax-background-color, 6%), 2%);
+@theme-background-color: @theme-eggplant;
+@theme-background-color-dark: @theme-eggplant;
+@theme-background-color-light: desaturate(lighten(@theme-background-color, 6%), 2%);
 
-@theme-blue:   @syntax-color-renamed;
-@theme-green:  @syntax-color-added;
+@theme-blue: rgb(79, 131, 189);
+@theme-green: rgb(88, 181, 81);
 @theme-orange: @theme-purple;
-@theme-red:    @syntax-color-removed;
+@theme-red: rgb(131, 37, 0);
 
 
 // Editor colors ---------------------------------------------------------------
-@theme-syntax-text-color:            @syntax-text-color;
-@theme-syntax-cursor-color:          @syntax-text-color;
-@theme-syntax-selection-color:       lighten(@syntax-background-color, 10%);
-@theme-syntax-background-color:      @syntax-background-color;
+@theme-syntax-text-color:            @theme-concrete;
+@theme-syntax-cursor-color:          @theme-chocolate;
+@theme-syntax-selection-color:       lighten(@theme-cement, 10%);
+@theme-syntax-background-color:      @theme-eggplant;
 
 @theme-syntax-wrap-guide-color:          @theme-background-color-light;
 @theme-syntax-indent-guide-color:        @theme-background-color-light;
@@ -125,9 +124,9 @@
 
 @progress-background-color: @background-color-info;
 
-@markdown-preview-color: @syntax-text-color;
-@markdown-preview-background-color: @syntax-background-color;
-@markdown-preview-border-color: mix(@syntax-text-color, @syntax-background-color, 20%);
+@markdown-preview-color: @theme-concrete;
+@markdown-preview-background-color: @theme-eggplant;
+@markdown-preview-border-color: mix(@theme-concrete, @theme-eggplant, 20%);
 
 @scrollbar-color: @theme-background-color-light;
 @scrollbar-color-active: @theme-background-color-light;
