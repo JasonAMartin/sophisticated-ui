@@ -25,6 +25,6 @@ All feedback is welcome.
 
 #### Screens
 
-Here's an initial screen showing Sophisticated UI with the syntax theme One Dark. More screens to come.
+Here's an initial screen showing Sophisticated UI 0.2.0 with the syntax theme Sophisticated Syntax (in progress). More screens to come.
 
-![Sophisticated UI](http://i.imgur.com/Fs4YMJf.png)
+![Sophisticated UI](http://i.imgur.com/KF1m59n.png)
