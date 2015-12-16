@@ -51,6 +51,22 @@ linter-panel:empty {
   display: none;
 }
 
+linter-panel {
+    height: 50px !important;
+}
+
+.linter-message-link {
+  color: @theme-cement;
+}
+
+#linter-inline {
+  padding: 10px;
+  background: @theme-concrete;
+  &:before {
+  border-color: transparent transparent @theme-concrete @theme-concrete;
+  }
+}
+
 // deprecation-cop -------------------------------------------------------------
 .deprecation-cop {
   .deprecation-info:hover {
