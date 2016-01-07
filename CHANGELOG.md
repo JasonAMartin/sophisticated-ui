@@ -1,4 +1,4 @@
-## 0.2.2 - Git
+## 0.3.0 - Git
 
 I updated coloring for a few Git items (line removed, line added and line modified).
 
