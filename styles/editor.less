@@ -63,7 +63,7 @@ atom-text-editor::shadow,
       width: inherit;
 
       &.git-line-added {
-        color: mix(@syntax-background-color, @text-color-added, 48%);
+        color: @git-line-added;
         border-left-color: mix(@syntax-background-color, @text-color-added, 48%);
 
         &.cursor-line,
@@ -74,7 +74,7 @@ atom-text-editor::shadow,
       }
 
       &.git-line-modified {
-        color: mix(@syntax-background-color, @text-color-modified, 48%);
+        color: @git-line-modified;
         border-left-color: mix(@syntax-background-color, @text-color-modified, 48%);
 
         &.cursor-line,
@@ -85,7 +85,7 @@ atom-text-editor::shadow,
       }
 
       &.git-line-removed {
-        color: mix(@syntax-background-color, @text-color-removed, 48%);
+        color: @git-line-removed;
         border-left-color: mix(@syntax-background-color, @text-color-removed, 48%);
 
         &.cursor-line,

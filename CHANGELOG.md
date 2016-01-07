@@ -1,3 +1,7 @@
+## 0.2.2 - Git
+
+I updated coloring for a few Git items (line removed, line added and line modified).
+
 ## 0.1.1 - Menus
 Started looking into pop menus (ctrl + p, ctrl + shift + p). I changed the look to better match the theme.
 
